@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="en" class="h-100">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Shaun Landy">
+    <title>Shaun Landy - Portfolio</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/cover/">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet"> 
+    
+    <!-- Bootstrap core CSS -->
+    <link href="../../bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+
+    <!-- Custom styles for this template -->
+    <link href="../portfolio.css" rel="stylesheet">
+    <link href="../../global.css" rel="stylesheet">
+    <link href="../../header.css" rel="stylesheet">
+  </head>
+  <body class="d-flex text-center text-white bg-dark">
+    
+    <div class="cover-container d-flex w-100 p-3 mx-auto flex-column">
+      <header class="header flex-shrink-0 mb-3 bg-white rounded">
+        <nav class="nav nav-masthead">
+          <a class="home-link me-4" aria-current="page" href="#">
+            <i class="bi-house-door-fill"></i>
+          </a>
+          <a class="nav-link px-2" href="../../index.html">Home</a>
+          <a class="nav-link px-2" href="../../cv/index.html">CV</a>
+          <a class="nav-link active px-2" aria-current="page" href="../../portfolio/index.html">Portfolio</a>
+        </nav>
+      </header>
+
+      <main class="bg-white rounded p-3 text-dark text-start">
+        
+        <!-- <div class="px-3">
+          <p>
+            Collection of portfolio pieces. 
+            Builds can be provided on request for portfolio pieces where it is possible.
+            <br/>
+            All portfolio pieces on this page where built as part of a team unless otherwise mentioned
+          </p>
+        </div>
+
+        <hr class="border"/> -->
+
+        <div class="px-3">
+          <h2>ITS Cyber Security Week</h2>
+          <p>
+            IT Services at the University of the West of England commissioned a team of four students 
+            through enterprise studio Playwest to develop three games that cover cyber security concepts 
+            while being a spin on classic arcade games. Four arcade cabinets were built to house the three 
+            games and were shown on campus to staff and students during Cyber Security Week.
+          </p>
+        </div>
+
+        <hr class="border"/>
+
+        <div class="px-3">
+          <h2>Type Fighter</h2>
+          <p>
+            Type Fighter is an asymmetrical two player shoot 'em up typing game where one player moves and 
+            shoots while the other player supports by typing in commands, created using C# in Unity. 
+            This was created during a week long gamejam with the theme of 80's arcade and computer security. 
+            A further two weeks were spent expanding and polishing the game, the final game having three 
+            levels and a tutorial level. This was created by a team of four people 
+            (three programmers and an artist) with C# in Unity, music was provided by Ryan Callard.
+          </p>
+          <p>Inspiration for the supporting abilities comes from computer terms that relate to computer security:</p>
+          <ul>
+            <li>Update unlocks more abilities and upgrades the player</li>
+            <li>Firewall and Spam Filter generate protective walls</li>
+            <li>Antivirus and Scans temporarily upgrade the players projectiles (exploding and homing)</li>
+            <li>Restore heals the player</li>
+            <li>Authenticate activates a powerful laser weapon that sweeps through enemies</li>
+            <li>Backup generates copies of the player and can revive the player if they get destroyed</li>
+            <li>Encrypt locks the players health making them temporarily invincible</li>
+            <li>Factory-Reset resets all current elements (updates, health, lives, destroys all enemies) of the game except for score</li>  
+          </ul>
+          <p>Inspiration for the enemies come from computer security risks:</p>
+          <ul>
+            <li>Spam/Adware cause popups to appear</li>
+            <li>Spyware follow the player when they close enough</li>
+            <li>DoS appear in large amounts and rush the player</li>
+            <li>Keylogger that only shoots when the supporting player types</li>
+            <li>Trojans that multiply on death</li>
+            <li>Corrupted files that have varying abilities</li>
+            <li>Four different bosses that can only be defeated by guessing the bosses password</li>
+          </ul>
+          <p>Key features:</p>
+          <ul>
+            <li>Asymmetrical multiplayer</li>
+            <li>Shoot 'em up with typing</li>
+            <li>10 upgradeable abilities</li>
+            <li>8 enemy types and 4 bosses</li>
+            <li>Three levels and tutorial</li>
+            <li>Secret ship designs and cheats</li>
+            <li>Local leaderboard</li>
+          </ul>
+          <div class="sub-section">
+            <div class="container g-0">
+              <div class="row">
+                <div class="col-md-3 mb-sm-3 mb-md-0 section">
+                  <img src="../../assets/its/typefighter/splash.png"/>
+                </div>
+                <div class="col-md-3 mb-sm-3 mb-md-0 section">
+                  <img src="../../assets/its/typefighter/tf3.png"/>
+                </div>
+                <div class="col-md-3 mb-sm-3 mb-md-0 section">
+                  <img src="../../assets/its/typefighter/tf4.png"/>
+                </div>
+                <div class="col-md-3 mb-sm-3 mb-md-0 section">
+                  <img src="../../assets/its/typefighter/tf5.png"/>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <hr class="border"/>
+
+        <div class="px-3">
+          <h2>Spamphibian</h2>
+          <p>
+            Spamphibian is an email management game which takes inspiration from the arcade classic, Frogger. 
+            The player must navigate an office, avoiding co-workers and sorting emails all the while 
+            trying to keep the boss happy. Emails must be sorted depending on whether they are spam or 
+            from a legitimate source. Things to look for that may identify what category the email should 
+            be sorted to are the sender address, the content and any suspicious links. There are five days to 
+            survive with ramping difficulty as the workers move faster, email sorting requirement increases 
+            and the boss becomes more easily agitated. Depending on player actions and performance there are 
+            seven possible endings. Created in three weeks were spent expanding and polishing the game, the 
+            final game having three levels and a tutorial level. This was created by a team of four 
+            people (three programmers and an artist) with C# in Unity, music was provided by Ryan Callard.
+          </p>
+          <p>Key features:</p>
+          <ul>
+            <li>Traditional Frogger tutorial</li>
+            <li>Frogger in an office setting</li>
+            <li>60+ emails to be sorted with narrative elements</li>
+            <li>Easily agitated boss with free movement</li>
+            <li>Seven possible endings</li>
+            <li>Local leaderboard</li>
+          </ul>
+          <div class="sub-section">
+            <div class="container g-0">
+              <div class="row">
+                <div class="col-md-3 mb-sm-3 mb-md-0 section">
+                  <img src="../../assets/its/spamphibian/sp2.png"/>
+                </div>
+                <div class="col-md-3 mb-sm-3 mb-md-0 section">
+                  <img src="../../assets/its/spamphibian/sp4.png"/>
+                </div>
+                <div class="col-md-3 mb-sm-3 mb-md-0 section">
+                  <img src="../../assets/its/spamphibian/sp5.png"/>
+                </div>
+                <div class="col-md-3 mb-sm-3 mb-md-0 section">
+                  <img src="../../assets/its/spamphibian/fired.png"/>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <hr class="border"/>
+
+        <div class="px-3">
+          <h2>Goost</h2>
+          <p>
+            Goost is a competitive two player action game with an underlying randsomware theme which takes 
+            inspiration from arcade classic, Joust. Players must collide with and defeat the AI to collect 
+            score and data/coins. Players must also collide and defeat the opposing player so that they lose 
+            their data/coins. The winner is decided by who has the highest score by the end of the game.
+          </p>
+          <p>Key features:</p>
+          <ul>
+            <li>Joust inspired gameplay</li>
+            <li>Competitive two player</li>
+            <li>Three different enemy AI behaviour</li>
+            <li>Twitter integration to show internet security tweets via plane aerial advertising in the background</li>
+            <li>Local leaderboard</li>
+          </ul>
+          <div class="sub-section">
+            <div class="container g-0">
+              <div class="row">
+                <div class="col-md-3 mb-sm-3 mb-md-0 section">
+                  <img src="../../assets/its/goost/g1.png"/>
+                </div>
+                <div class="col-md-3 mb-sm-3 mb-md-0 section">
+                  <img src="../../assets/its/goost/g2.png"/>
+                </div>
+                <div class="col-md-3 mb-sm-3 mb-md-0 section">
+                  <img src="../../assets/its/goost/g3.png"/>
+                </div>
+                <div class="col-md-3 mb-sm-3 mb-md-0 section">
+                  <img src="../../assets/its/goost/g4.png"/>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </main>
+    </div>
+
+  </body>
+</html>

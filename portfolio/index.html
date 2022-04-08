@@ -1,0 +1,216 @@
+<!doctype html>
+<html lang="en" class="h-100">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Shaun Landy">
+    <title>Shaun Landy - Portfolio</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/cover/">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet"> 
+    
+    <!-- Bootstrap core CSS -->
+    <link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+
+    <!-- Custom styles for this template -->
+    <link href="portfolio.css" rel="stylesheet">
+    <link href="../global.css" rel="stylesheet">
+    <link href="../header.css" rel="stylesheet">
+  </head>
+  <body class="d-flex text-center text-white bg-dark">
+    
+    <div class="cover-container d-flex w-100 p-3 mx-auto flex-column">
+      <header class="header flex-shrink-0 mb-3 bg-white rounded">
+        <nav class="nav nav-masthead">
+          <a class="home-link me-4" aria-current="page" href="#">
+            <i class="bi-house-door-fill"></i>
+          </a>
+          <a class="nav-link px-2" href="../index.html">Home</a>
+          <a class="nav-link px-2" href="../cv/index.html">CV</a>
+          <a class="nav-link active px-2" aria-current="page" href="../portfolio/index.html">Portfolio</a>
+        </nav>
+      </header>
+
+      <main class="bg-white rounded p-3 text-dark text-start">
+        
+        <!-- <div class="px-3">
+          <p>
+            Collection of portfolio pieces. 
+            Builds can be provided on request for portfolio pieces where it is possible.
+            <br/>
+            All portfolio pieces on this page where built as part of a team unless otherwise mentioned
+          </p>
+        </div>
+
+        <hr class="border"/> -->
+
+        <div class="px-3">
+          <h2>Highlights</h2>
+          <div class="sub-section">
+            <div class="container g-0">
+              <div class="row">
+                <div class="col-md-4 section">
+                  <h3>LandHawk</h3>
+                  <img src="../assets/landhawk/analysis.png"/>
+                  <span>LandHawk Software Services Limited</span>
+                  <p>
+                    Land acquisition and assessment platform built with Ruby on Rails, PostgreSQL and React.
+                    Most complex developed feature is 5000km+ site finder with query builder.
+                  </p>
+                  <a href="landhawk/index.html">Read More</a>
+                </div>
+                <div class="col-md-4 section">
+                  <h3>CirroStratus</h3>
+                  <img src="../assets/cirrostratus/editor.png"/>
+                  <span>UWE Games Engine Architecture Project</span>
+                  <p>
+                    Dungeon crawler built with C++ DirectX11 from the ground up.
+                    Includes local 4 player multiplayer and built in level editor. Demoed at Develop:Brighton 2015.
+                  </p>
+                  <a href="cirrostratus/index.html">Read More</a>
+                </div>
+                <div class="col-md-4 section">
+                  <h3>ITS Cyber Arcade</h3>
+                  <img src="../assets/its/typefighter/splash.png"/>
+                  <span>UWE IT Services Cyber Security Event</span>
+                  <p>
+                    Three games that cover cyber security concepts while being a spin on classic arcade games.
+                    Built with C# Unity3D and developed for windows arcade machine.
+                  </p>
+                  <a href="its/index.html">Read More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <hr class="border"/>
+
+        <div class="px-3">
+          <h2>Other</h2>
+          <div class="sub-section">
+            <div class="container g-0">
+              <div class="row">
+                <div class="col-md-4 section">
+                  <h3>Red in the Water</h3>
+                  <img src="../assets/redinthewater/game.png"/>
+                  <span>Global Game Jam 2017</span>
+                  <p>
+                    Coop Wave based survival LAN multiplayer game (3D Player & 2D Radar) built with C# Unity3D. 
+                    Support for Tobii Eye Tracker and PSVR (PS4 DevKit).
+                  </p>
+             
+                </div> 
+                <div class="col-md-4 section">
+                  <h3>Spatial Partition Demo</h3>
+                  <img src="../assets/spatial/kdtest.png"/>
+                  <span>UWE Dissertation (Solo)</span>
+                  <p>
+                    Demonstration tool for showcasing spatial partition systems built with C++ DirectX11.
+                    Live Partitioning in response to changes and simple time tests could be performed.  
+                  </p>
+                </div> 
+                <div class="col-md-4 section">
+                  <h3>After Hours</h3>
+                  <img src="../assets/afterhours/game.png"/>
+                  <span>Cyber Security Game Jam</span>
+                  <p>
+                    VR puzzle game built for Vive with C# Unity3D. 
+                    Use context clues to gain access to computers and complete minigames to steal data.
+                  </p>
+                </div> 
+                <div class="col-md-4 section">
+                  <h3>Pop Til You Drop</h3>
+                  <img src="../assets/pop/game.png"/>
+                  <span>UWE Game Jam</span>
+                  <p>
+                    Competitive local 4 player multiplayer. Blow bubbles and stay on the screen the longest to win.
+                    Built with C# Unity3D.
+                  </p>
+                </div>
+                <div class="col-md-4 section">
+                  <h3>Armad Heroes (DilloDash)</h3>
+                  <img src="../assets/armadheroes/game.png"/>
+                  <span>UWE Games Development Project</span>
+                  <p>
+                    Competitive 2D physics racer, local 4 player multiplayer built with C# Unity3D. 
+                    Was 1 of 8 minigames that was included in a cohort integrated game.
+                  </p>
+                </div>
+                <div class="col-md-4 section">
+                  <h3>Autarky</h3>
+                  <img src="../assets/autarky/game.png"/>
+                  <span>UWE Games Development Project</span>
+                  <p>
+                    Manages a car production factory in Soviet Poland. 
+                    Increasing difficulty as budget shrinks and production quota grows. Built with C# Unity3D.
+                  </p>
+                </div>
+                <div class="col-md-4 section">
+                  <h3>Holo-Friend</h3>
+                  <img src="../assets/holo/point.png"/>
+                  <span>UWE Audio Visual Project</span>
+                  <p>
+                    A 90 second video for made up product called Holo-Friend. Edited with Adobe AfterEffects.
+                    <a href="https://youtu.be/bTT0QIW4yeI">Watch here</a>
+                  </p>
+                </div>
+                <div class="col-md-4 section">
+                  <h3>Swindon VR Flythrough</h3>
+                  <img src="../assets/swindonvr/kimmerfields.png"/>
+                  <span>SwitchOnSwindon Event (Solo)</span>
+                  <p>
+                    VR flythrough of Swindon to showcase key developments built for Oculus. 
+                    Developed for SwitchOnSwindon event and demonstrated at Nationwide HQ.
+                  </p>
+                </div>
+                <div class="col-md-4 section">
+                  <h3>Swindon AR Demo</h3>
+                  <img src="../assets/swindonar/model.png"/>
+                  <span>The Carto Group (Solo)</span>
+                  <p>
+                    A simple AR demo application for Android that showcases developments in the Swindon area.
+                    Build with C# Unity3D.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        
+
+
+        <hr class="border d-none"/>
+
+        <div class="px-3 d-none">
+          <h2>Other</h2>
+          <div class="sub-section">
+            <p>
+              Frogger 20 <br/>
+              Stealth Chicken <br/>
+              Colourmetry <br/>
+              Miyance <br/>
+              Crypteia <br/>
+              Stab in the Dark <br/>
+              Choas Initiative Jam <br/>
+              In The Zone <br/>
+              Ylla <br/>
+              DaqriHS2 <br/>
+              Heritage AR <br/>
+              Lamp<br/>
+              Place Intelligence<br/>
+            </p>
+          </div>
+        </div>
+
+      </main>
+    </div>
+
+  </body>
+</html>

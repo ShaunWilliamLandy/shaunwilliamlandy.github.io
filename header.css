@@ -1,0 +1,48 @@
+/*
+ * Header
+ */
+
+.header {
+  overflow: auto
+}
+
+.nav-masthead .nav-link {
+  padding: 0;
+  font-weight: 700;
+  color: #000;
+  background-color: transparent;
+  /* border-bottom: .25rem solid transparent; */
+}
+
+.nav-masthead a {
+  line-height: 70px;
+}
+
+.nav-masthead .nav-link:hover,
+.nav-masthead .nav-link:focus {
+  /* border-bottom-color: #000; */
+  color: #8a2e04
+}
+
+.nav-masthead .nav-link + .nav-link {
+  /* margin-left: 1rem; */
+}
+
+.nav-masthead .active {
+  color: #bf470f;
+  /* border-bottom-color: #bf470f; */
+}
+
+.home-link {
+  color: #000;
+  background-color: #bf470f;
+  padding: 0px 24px;
+}
+
+.home-link i {
+  /* display: block;
+  height: 20px; */
+  font-size: 20px;
+}
+
+/* #8a2e04 */
