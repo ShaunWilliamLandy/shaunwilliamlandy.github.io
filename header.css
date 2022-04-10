@@ -34,8 +34,8 @@
 }
 
 .home-link {
-  color: #000;
-  background-color: #bf470f;
+  color: #000 !important;
+  background-color: #bf470f !important;
   padding: 0px 24px;
 }
 

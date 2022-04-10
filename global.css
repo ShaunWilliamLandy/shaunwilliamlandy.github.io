@@ -27,3 +27,40 @@ h3 {
   font-size: 1.5rem !important;
   margin-bottom: 0;
 }
+
+h4 {
+  /* font-weight: bold; */
+  color: grey;
+  font-size: 1rem !important;
+  margin-bottom: 0;
+}
+
+.logo {
+  height: 20px;
+  width: 20px;
+  margin-top: -4px;
+}
+
+a:link {
+  color: #bf470f;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #bf470f;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #8a2e04;
+  background-color: transparent;
+  /* text-decoration: underline; */
+}
+
+a:active {
+  color: #8a2e04;
+  background-color: transparent;
+  /* text-decoration: underline; */
+}

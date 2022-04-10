@@ -20,11 +20,16 @@ h3 {
     margin-bottom: 0;
 }
 
-.section {
-    /* padding: 10px */
-}
-
 .sub-section > h3 + p {
     font-size: 1rem;
     color: grey
+}
+
+.languages > li{
+    max-width: 250px;
+}
+
+.languages > li > span{
+    float: right;
+    color: #bf470f;
 }
